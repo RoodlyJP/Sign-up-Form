@@ -1,0 +1,43 @@
+@font-face {
+    font-family: norsebold;
+    src: url(./font/Norsebold.otf);
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.background {
+    position: relative;
+    width: auto;
+    z-index: 1;
+}
+.background .header {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+    padding: .5rem 0;
+    display: flex;
+    justify-content: center;
+    background-color: #00000080;
+}
+.header img {
+    width: 100px;
+    height: auto;
+}
+h1 {
+    font-family: norsebold, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 3rem;
+}
+.background>img {
+    height: 100vh;
+    width: auto;
+}
+
+.form-side {
+    padding: 50px;
+    font-size: 1.5rem;
+}
